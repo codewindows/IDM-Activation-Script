@@ -183,8 +183,8 @@ set _col=%_Yellow%
 
 echo:          _____________________________________________   
 echo: 
-echo:             IDM Activation ^& Trial Reset Script
-call :_color2 %_White% "        " %_Green% " Create By Piash - Edited By CodeWindows"
+echo:              IDM Activation ^& Trial Reset Script
+call :_color2 %_White% "        " %_Green% "   Create By Piash - Edited By CodeWindows"
 echo:          _____________________________________________   
 echo:                                                          
 echo:          [1] Activate IDM                                
