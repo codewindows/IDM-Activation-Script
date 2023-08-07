@@ -184,7 +184,7 @@ set _col=%_Yellow%
 echo:          _____________________________________________   
 echo: 
 echo:          IDM Activation & Trail Reset Script
-call :_color2 %_White% "        " %_Green% "  Create By Piash (Edited By CodeWindows)"
+call :_color2 %_White% "        " %_Green% "Create By Piash - Edited By CodeWindows"
 echo: 
 echo:          _____________________________________________   
 echo:                                                          
