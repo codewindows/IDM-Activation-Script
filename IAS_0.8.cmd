@@ -153,7 +153,7 @@ if defined activate goto _activate
 :MainMenu
 
 cls
-title  IDM Activation Script 0.7 - @ModByPiash
+title  IDM Activation Script 0.7 - Edited by CodeWindows
 mode 65, 25
 
 :: Check firewall status
@@ -181,11 +181,11 @@ set _status=Status_Unclear
 set _col=%_Yellow%
 )
 
-call :_color2 %_White% "        " %_Green% "  Create By Piash"
 echo:          _____________________________________________   
 echo: 
-echo:          Telegram: @ModByPiash
-echo:          Github: https://github.com/lstprjct
+echo:          IDM Activation & Trail Reset Script
+call :_color2 %_White% "        " %_Green% "  Create By Piash (Edited By CodeWindows)"
+echo: 
 echo:          _____________________________________________   
 echo:                                                          
 echo:          [1] Activate IDM                                
@@ -418,13 +418,13 @@ exit /b
 :register_IDM
 
 echo:
-set /p name="What is the name to be registered?"
+set /p name="What is the name to be registered? : "
 
 echo:
 echo Applying registration details...
 echo:
 
-If not defined name set name=Piash
+If not defined name set name=codewindows
 
 set "reg=HKCU\SOFTWARE\DownloadManager /v FName /t REG_SZ /d "%name%"" & call :_rcont
 set "reg=HKCU\SOFTWARE\DownloadManager /v LName /t REG_SZ /d """ & call :_rcont
